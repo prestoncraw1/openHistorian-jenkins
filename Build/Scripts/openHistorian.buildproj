@@ -42,7 +42,7 @@
       <VersionRevisionChange>Reset</VersionRevisionChange>
 
       <!-- Override default settings. -->
-      <GitServer Condition="'$(GitServer)' == ''">git@github.com:GridProtectionAlliance/openHistorian.git</GitServer>
+      <GitServer Condition="'$(GitServer)' == ''">https://github.com/prestoncraw1/openHistorian-jenkins.git</GitServer>
     </PropertyGroup>
   </Target>
 
