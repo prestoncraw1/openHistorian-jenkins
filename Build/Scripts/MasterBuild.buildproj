@@ -288,7 +288,7 @@
       <ProgramFiles32 Condition="'$(ProgramFiles32)' == ''">$(ProgramFiles)</ProgramFiles32>
       <ProgramFiles64>$(ProgramW6432)</ProgramFiles64>
       <ProgramFiles64 Condition="'$(ProgramFiles64)' == ''">$(ProgramFiles)</ProgramFiles64>
-      <LocalFolder Condition="'$(LocalFolder)' == ''">$([System.IO.Path]::GetFullPath('$(TEMP)\MSBuild\$(ProjectName)'))</LocalFolder>
+      <LocalFolder Condition="'$(LocalFolder)' == ''">C:\test\openHistorian-jenkins</LocalFolder>
       <BuildFlavor Condition="'$(BuildFlavor)' == ''">Release</BuildFlavor>
       <BuildTarget Condition="'$(BuildTarget)' == ''">Any CPU</BuildTarget>
       <BuildInParallel Condition="'$(BuildInParallel)' == ''">True</BuildInParallel>

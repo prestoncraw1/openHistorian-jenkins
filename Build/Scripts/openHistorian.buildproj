@@ -33,6 +33,7 @@
     <PropertyGroup>
       <!-- Must-override settings. -->
       <ProjectName>openHistorian</ProjectName>
+	  <LocalFolder Condition="'$(LocalFolder)' == ''">C:\test\openHistorian-jenkins</LocalFolder>
       <ProjectSolution>$(LocalFolder)\Source\$(ProjectName).sln</ProjectSolution>
       
       <VersionMajorChange>None</VersionMajorChange>
